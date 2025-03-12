@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDDY - Dashboard</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/dashboard.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <div class="logo">
+          <img src="../../assets/logo.svg" alt="STUDDY" />
+        </div>
+        <h1>Dashboard</h1>
+        <div class="notification-icon">
+          <img src="../../assets/bell.svg" alt="Notifications" />
+        </div>
+      </header>
+
+      <main class="dashboard-content">
+        <section class="today-tasks">
+          <h2>TODAY'S TASKS</h2>
+
+          <div class="task-list">
+            <div class="task-item">
+              <div class="task-checkbox unchecked"></div>
+              <span class="task-text">Task 1 - Description</span>
+            </div>
+            <div class="task-item">
+              <div class="task-checkbox checked"></div>
+              <span class="task-text">Task 2 - Description</span>
+            </div>
+            <div class="task-item">
+              <div class="task-checkbox overdue"></div>
+              <span class="task-text overdue">Task 3 - Overdue</span>
+            </div>
+            <div class="task-item">
+              <div class="task-checkbox unchecked"></div>
+              <span class="task-text">Task 4 - Description</span>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress" style="width: 50%"></div>
+            <span class="progress-text">5/10 TASK COMPLETED TODAY</span>
+          </div>
+        </section>
+
+        <section class="upcoming-tasks">
+          <h2>UPCOMING TASKS FOR THE WEEK</h2>
+
+          <div class="task-list">
+            <div class="task-item">
+              <span class="task-text">Complete Project Phase 3</span>
+              <span class="task-date">March 12, 2025</span>
+            </div>
+            <div class="task-item">
+              <span class="task-text">Submit Assignment 2</span>
+              <span class="task-date">March 13, 2025</span>
+            </div>
+            <div class="task-item">
+              <span class="task-text">Submit Assignment 3</span>
+              <span class="task-date">March 14, 2025</span>
+            </div>
+            <div class="task-item">
+              <span class="task-text">Submit Assignment 4</span>
+              <span class="task-date">March 14, 2025</span>
+            </div>
+            <div class="task-item">
+              <span class="task-text">Submit Assignment 5</span>
+              <span class="task-date">March 14, 2025</span>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress" style="width: 35%"></div>
+            <span class="progress-text">7/20 TASK COMPLETED FOR THE WEEK</span>
+          </div>
+        </section>
+
+        <div class="add-task">
+          <input type="text" placeholder="TASK NAME" />
+          <button>Add Task</button>
+        </div>
+      </main>
+
+      <nav class="bottom-nav">
+        <div class="nav-item active">
+          <a href="/dashboard.html">
+            <img
+              width="50"
+              height="50"
+              src="/assets/dashboard_active.png"
+              alt="Dashboard"
+            />
+          </a>
+
+          <span>Dashboard</span>
+        </div>
+        <div class="nav-item">
+          <a href="/calendar-month.html">
+            <img src="/assets/calendar_inactive.png" alt="Calendar"
+          /></a>
+          <span>Calendar</span>
+        </div>
+        <div class="nav-item">
+          <a href="/add-task.html">
+            <img src="/assets/addtask_inactive.png" alt="Add Tasks" />
+          </a>
+          <span>Add Tasks</span>
+        </div>
+        <div class="nav-item">
+          <a href="/settings.html">
+            <img src="/assets/settings_inactive.png" alt="Settings" />
+          </a>
+          <span>Settings</span>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

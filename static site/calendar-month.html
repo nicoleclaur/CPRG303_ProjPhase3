@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDDY - Calendar Month View</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/calendar-month.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <div class="logo">
+          <img src="../../assets/logo.svg" alt="STUDDY" />
+        </div>
+        <h1>Calendar</h1>
+        <div class="placeholder-div"></div>
+      </header>
+
+      <main class="calendar-content">
+        <div class="calendar-controls">
+          <div class="month-selector">
+            <span>June 2025</span>
+            <img src="../../assets/chevron-down.svg" alt="Select month" />
+          </div>
+
+          <div class="view-toggle">
+            <button class="toggle-btn">Week</button>
+            <button class="toggle-btn active">Month</button>
+          </div>
+        </div>
+
+        <div class="month-calendar">
+          <div class="calendar-grid">
+            <div class="weekday">Sun</div>
+            <div class="weekday">Mon</div>
+            <div class="weekday">Tue</div>
+            <div class="weekday">Wed</div>
+            <div class="weekday">Thu</div>
+            <div class="weekday">Fri</div>
+            <div class="weekday">Sat</div>
+
+            <div class="day prev-month">27</div>
+            <div class="day prev-month">28</div>
+            <div class="day prev-month">29</div>
+            <div class="day prev-month">30</div>
+            <div class="day">31</div>
+            <div class="day">1</div>
+            <div class="day">2</div>
+
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day active">6</div>
+            <div class="day highlight">7</div>
+            <div class="day highlight">8</div>
+            <div class="day highlight">9</div>
+
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day active">15</div>
+            <div class="day">16</div>
+
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+          </div>
+        </div>
+
+        <div class="tasks-section">
+          <div class="date-tasks">
+            <h2>June 6</h2>
+            <div class="task-list">
+              <div class="task-item">Task 1 - Description</div>
+              <div class="task-item">Task 2 - Description</div>
+              <div class="task-item">Task 3 - Description</div>
+            </div>
+          </div>
+
+          <div class="date-tasks">
+            <h2>June 15</h2>
+            <div class="task-list">
+              <div class="task-item">Task 1 - Description</div>
+              <div class="task-item">Task 2 - Description</div>
+              <div class="task-item">Task 3 - Description</div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="bottom-nav">
+        <div class="nav-item active">
+          <a href="/dashboard.html">
+            <img
+              width="50"
+              height="50"
+              src="/assets/dashboard_inactive.png"
+              alt="Dashboard"
+            />
+          </a>
+
+          <span>Dashboard</span>
+        </div>
+        <div class="nav-item">
+          <a href="/calendar-month.html">
+            <img src="/assets/calendar_active.png" alt="Calendar"
+          /></a>
+          <span>Calendar</span>
+        </div>
+        <div class="nav-item">
+          <a href="/add-task.html">
+            <img src="/assets/addtask_inactive.png" alt="Add Tasks" />
+          </a>
+          <span>Add Tasks</span>
+        </div>
+        <div class="nav-item">
+          <a href="/settings.html">
+            <img src="/assets/settings_inactive.png" alt="Settings" />
+          </a>
+          <span>Settings</span>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

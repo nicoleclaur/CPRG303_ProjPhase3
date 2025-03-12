@@ -1,0 +1,94 @@
+/* Settings Specific Styles */
+.settings-content {
+    padding: 24px;
+    margin-bottom: 70px;
+}
+
+/* Header */
+.app-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border-color);
+    background: white;
+}
+
+.app-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+/* Settings List */
+.settings-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.settings-item:last-child {
+    border-bottom: none;
+}
+
+/* Settings Info */
+.settings-info {
+    flex: 1;
+    margin-right: 16px;
+}
+
+.settings-info h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 4px;
+}
+
+.settings-info p {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.4;
+}
+
+/* Settings Value */
+.settings-value {
+    padding: 8px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 14px;
+    color: var(--text-dark);
+    white-space: nowrap;
+}
+
+.settings-value.danger {
+    color: var(--error-color);
+}
+
+/* Category Colors */
+.category-colors {
+    display: flex;
+    gap: 8px;
+    padding: 8px 12px;
+}
+
+.color-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.color-dot.red {
+    background-color: var(--error-color);
+}
+
+.color-dot.yellow {
+    background-color: var(--warning-color);
+}
+
+.color-dot.green {
+    background-color: var(--success-color);
+}

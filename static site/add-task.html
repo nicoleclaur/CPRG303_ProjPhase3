@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDDY - Add Task</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/addtask.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="STUDDY" />
+        </div>
+        <div class="notification-icon">
+          <img src="/assets/notif.png" alt="Notifications" />
+        </div>
+      </header>
+
+      <main class="add-task-content">
+        <h1>Add new task</h1>
+
+        <form class="task-form">
+          <div class="form-group">
+            <label>Task name</label>
+            <input type="text" placeholder="Enter task name....." required />
+          </div>
+
+          <div class="form-group">
+            <label>Due Date</label>
+            <div class="input-with-icon">
+              <input type="text" placeholder="Date..." required />
+              <img
+                src="../../assets/calendar.svg"
+                alt="Calendar"
+                class="input-icon"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Category</label>
+            <div class="input-with-icon">
+              <select required>
+                <option value="" disabled selected>Select category...</option>
+                <option value="1">Category 1</option>
+                <option value="2">Category 2</option>
+                <option value="3">Category 3</option>
+              </select>
+              <img
+                src="../../assets/chevron-down.svg"
+                alt="Select"
+                class="input-icon"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Reminder Set</label>
+            <div class="input-with-icon">
+              <input type="text" value="10 mins before" readonly />
+              <img
+                src="../../assets/bell.svg"
+                alt="Reminder"
+                class="input-icon"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Notes</label>
+            <div class="notes-input">
+              <img src="../../assets/plus.svg" alt="Add" class="plus-icon" />
+              <span class="notes-placeholder">Notes</span>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="cancel-btn">Cancel</button>
+            <button type="submit" class="save-btn">Save</button>
+          </div>
+        </form>
+      </main>
+
+      <nav class="bottom-nav">
+        <div class="nav-item active">
+          <a href="/dashboard.html">
+            <img
+              width="50"
+              height="50"
+              src="/assets/dashboard_inactive.png"
+              alt="Dashboard"
+            />
+          </a>
+
+          <span>Dashboard</span>
+        </div>
+        <div class="nav-item">
+          <a href="/calendar-month.html">
+            <img src="/assets/calendar_inactive.png" alt="Calendar"
+          /></a>
+          <span>Calendar</span>
+        </div>
+        <div class="nav-item">
+          <a href="/add-task.html">
+            <img src="/assets/addtask_active.png" alt="Add Tasks" />
+          </a>
+          <span>Add Tasks</span>
+        </div>
+        <div class="nav-item">
+          <a href="/settings.html">
+            <img src="/assets/settings_inactive.png" alt="Settings" />
+          </a>
+          <span>Settings</span>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

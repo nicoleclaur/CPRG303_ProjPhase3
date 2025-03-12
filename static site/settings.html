@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDDY - Settings</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/settings.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <h1>Settings</h1>
+      </header>
+
+      <main class="settings-content">
+        <div class="settings-list">
+          <div class="settings-item">
+            <div class="settings-info">
+              <h2>Reminders</h2>
+              <p>Choose when to get task notifications.</p>
+            </div>
+            <div class="settings-value">1 day before due</div>
+          </div>
+
+          <div class="settings-item">
+            <div class="settings-info">
+              <h2>Categories</h2>
+              <p>Customize task category colors.</p>
+            </div>
+            <div class="settings-value category-colors">
+              <span class="color-dot red"></span>
+              <span class="color-dot yellow"></span>
+              <span class="color-dot green"></span>
+            </div>
+          </div>
+
+          <div class="settings-item">
+            <div class="settings-info">
+              <h2>Appearance</h2>
+              <p>Customize how Studdy looks on your device.</p>
+            </div>
+            <div class="settings-value">Light</div>
+          </div>
+
+          <div class="settings-item">
+            <div class="settings-info">
+              <h2>Start of Week</h2>
+              <p>Set the first day of each week in your calendar.</p>
+            </div>
+            <div class="settings-value">Sunday</div>
+          </div>
+
+          <div class="settings-item">
+            <div class="settings-info">
+              <h2>Recycle Bin</h2>
+              <p>Auto-delete tasks after a set time.</p>
+            </div>
+            <div class="settings-value">Every 7 days</div>
+          </div>
+
+          <div class="settings-item">
+            <div class="settings-info">
+              <h2>Reset</h2>
+              <p>
+                Restore the app to default settings. All data will be deleted.
+              </p>
+            </div>
+            <div class="settings-value danger">Reset</div>
+          </div>
+
+          <div class="settings-item">
+            <div class="settings-info">
+              <h2>About Us</h2>
+              <p>Learn more about the app.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="bottom-nav">
+        <div class="nav-item active">
+          <a href="/dashboard.html">
+            <img
+              width="50"
+              height="50"
+              src="/assets/dashboard_inactive.png"
+              alt="Dashboard"
+            />
+          </a>
+
+          <span>Dashboard</span>
+        </div>
+        <div class="nav-item">
+          <a href="/calendar-month.html">
+            <img src="/assets/calendar_inactive.png" alt="Calendar"
+          /></a>
+          <span>Calendar</span>
+        </div>
+        <div class="nav-item">
+          <a href="/add-task.html">
+            <img src="/assets/addtask_inactive.png" alt="Add Tasks" />
+          </a>
+          <span>Add Tasks</span>
+        </div>
+        <div class="nav-item">
+          <a href="/settings.html">
+            <img src="/assets/settings_active.png" alt="Settings" />
+          </a>
+          <span>Settings</span>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

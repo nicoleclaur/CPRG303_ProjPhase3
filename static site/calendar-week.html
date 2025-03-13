@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDDY - Calendar Week View</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/calendar-week.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="STUDDY" />
+        </div>
+        <h1>Calendar</h1>
+        <div class="placeholder-div"></div>
+      </header>
+
+      <main class="calendar-content">
+        <div class="calendar-controls">
+          <div class="month-selector">
+            <span>June 2025</span>
+            <img src="/assets/down.png" alt="Select month" />
+          </div>
+
+          <div class="view-toggle">
+            <a href="calendar-week.html" class="toggle-btn active">Week</a>
+            <a href="calendar-month.html" class="toggle-btn">Month</a>
+          </div>
+        </div>
+
+        <div class="week-view">
+          <button class="nav-arrow prev">
+            <img src="/assets/left.png" alt="Previous week" />
+          </button>
+
+          <div class="days-grid">
+            <div class="day-column active">
+              <span class="day-name">Sun</span>
+              <span class="day-number">27</span>
+            </div>
+            <div class="day-column">
+              <span class="day-name">Mon</span>
+              <span class="day-number">28</span>
+            </div>
+            <div class="day-column">
+              <span class="day-name">Tue</span>
+              <span class="day-number">29</span>
+            </div>
+            <div class="day-column">
+              <span class="day-name">Wed</span>
+              <span class="day-number">30</span>
+            </div>
+            <div class="day-column">
+              <span class="day-name">Thu</span>
+              <span class="day-number">31</span>
+            </div>
+            <div class="day-column">
+              <span class="day-name">Fri</span>
+              <span class="day-number">1</span>
+            </div>
+            <div class="day-column">
+              <span class="day-name">Sat</span>
+              <span class="day-number">2</span>
+            </div>
+          </div>
+
+          <button class="nav-arrow next">
+            <img src="/assets/right.png" alt="Next week" />
+          </button>
+        </div>
+
+        <div class="day-details">
+          <h2>June 27</h2>
+          <div class="task-list">
+            <div class="task-item">
+              <span>Task 1 - Description</span>
+            </div>
+            <div class="task-item">
+              <span>Task 2 - Description</span>
+            </div>
+            <div class="task-item">
+              <span>Task 3 - Description</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="bottom-nav">
+        <div class="nav-item active">
+          <a href="/dashboard.html">
+            <img
+              width="50"
+              height="50"
+              src="/assets/dashboard_inactive.png"
+              alt="Dashboard"
+            />
+          </a>
+
+          <span>Dashboard</span>
+        </div>
+        <div class="nav-item">
+          <a href="/calendar-month.html">
+            <img src="/assets/calendar_active.png" alt="Calendar"
+          /></a>
+          <span>Calendar</span>
+        </div>
+        <div class="nav-item">
+          <a href="/add-task.html">
+            <img src="/assets/addtask_inactive.png" alt="Add Tasks" />
+          </a>
+          <span>Add Tasks</span>
+        </div>
+        <div class="nav-item">
+          <a href="/settings.html">
+            <img src="/assets/settings_inactive.png" alt="Settings" />
+          </a>
+          <span>Settings</span>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

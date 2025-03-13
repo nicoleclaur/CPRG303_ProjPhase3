@@ -65,6 +65,11 @@
     font-size: 14px;
     color: var(--text-dark);
     cursor: pointer;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
 }
 
 .toggle-btn.active {
